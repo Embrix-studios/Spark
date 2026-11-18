@@ -26,8 +26,8 @@ PERSONALITY = (
 st.set_page_config(page_title="Spark", page_icon="⚡")
 st.title("⚡ Spark")
 st.caption(
-    "A basic AI chatbot. Chats are not saved. Your messages are sent to "
-    "Google's AI to get replies, so don't share personal info."
+    ""Spark is a beta AI chatbot. Updates are released regularly to fix bugs and "
+    "improve the experience, so you may notice occasional mistakes or changes."
 )
 
 
