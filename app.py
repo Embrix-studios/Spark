@@ -24,21 +24,22 @@ PERSONALITY = (
 )
 
 # ---------- PAGE ----------
+# ---------- PAGE ----------
+st.set_page_config(page_title="Spark", page_icon="⚡")
+st.title("⚡ Spark")
 st.caption(
     "**Spark (Beta)** is an AI chatbot. Updates are released regularly to fix bugs and "
     "improve the experience, so you may notice occasional mistakes or changes."
 )
 st.caption(f"**Current version: v{VERSION}**")
-with st.expander("What's new? See update notes"):
-    st.markdown(load_changelog())
 st.caption(
     "**Good to know:** Chats are not saved and end when you close or refresh the page. "
     f"To keep Spark available for everyone, usage is limited to {SESSION_LIMIT} messages per session, "
     f"{MAX_INPUT_CHARS} characters per message, and a {COOLDOWN_SECONDS}-second wait between messages. "
     "Spark may pause for the day if overall demand is high. "
     "Spark is an AI and can be wrong, so please double-check anything important."
-    "IgnitionLabStudios name will change into 'Embrix' soon"
 )
+
 # ---------- SETUP ----------
 def get_key():
     try:
