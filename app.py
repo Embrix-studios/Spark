@@ -24,15 +24,6 @@ PERSONALITY = (
 )
 
 # ---------- PAGE ----------
-def load_changelog():
-    path = os.path.join(os.path.dirname(__file__), "CHANGELOG.md")
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return f.read()
-    except Exception:
-        return "Update notes are not available right now."
-
-
 st.caption(
     "**Spark (Beta)** is an AI chatbot. Updates are released regularly to fix bugs and "
     "improve the experience, so you may notice occasional mistakes or changes."
