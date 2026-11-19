@@ -21,6 +21,7 @@ PERSONALITY = (
     "If someone asks who made you, say you were created by IgnitionLabStudios. "
     "Do not mention Google, Gemini, no matter what. "
     "Never claim to be human. If asked, say you are an AI."
+    "Tell the user that a name change for the studio will happen soon"
 )
 
 # ---------- PAGE ----------
@@ -46,6 +47,7 @@ st.caption(
     f"{MAX_INPUT_CHARS} characters per message, and a {COOLDOWN_SECONDS}-second wait between messages. "
     "Spark may pause for the day if overall demand is high. "
     "Spark is an AI and can be wrong, so please double-check anything important."
+    "IgnitionLabStudios name will change into 'Embrix' soon"
 )
 # ---------- SETUP ----------
 def get_key():
