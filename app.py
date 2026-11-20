@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 
 # ---------- SETTINGS ----------
-VERSION = "0.1.1"
+VERSION = "0.1.1-DEV"
 MODEL = "gemini-3.1-flash-lite"
 MAX_MESSAGES = 40          # memory per visit
 SESSION_LIMIT = 20         # messages per visitor session
